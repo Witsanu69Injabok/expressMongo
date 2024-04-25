@@ -9,6 +9,9 @@ const productSchema = mongoose.Schema(
     price: {
       type: Number,
     },
+    remark: {
+      type: String,
+    }
   },
   { timestamps: true }
 );
